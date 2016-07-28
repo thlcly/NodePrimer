@@ -3,11 +3,13 @@
  */
 
 function start() {
-    console.log("start request is called");
+  console.log("Request handler 'start' was called.");
+  return "Hello Start";
 }
 
 function upload() {
-    console.log("upload request is called");
+  console.log("Request handler 'upload' was called.");
+  return "Hello Upload";
 }
 
 exports.start = start;
