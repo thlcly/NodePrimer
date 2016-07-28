@@ -1,0 +1,27 @@
+{
+  "name": "node-primer",
+  "version": "1.0.0",
+  "description": "this is the project of node primer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thlcly/NodePrimer.git"
+  },
+  "keywords": [
+    "node",
+    "primer"
+  ],
+  "author": "thlcly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thlcly/NodePrimer/issues"
+  },
+  "homepage": "https://github.com/thlcly/NodePrimer#readme",
+  "dependencies": {
+    "formidable": "^1.0.17"
+  }
+}
